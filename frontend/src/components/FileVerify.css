@@ -1,0 +1,11 @@
+.verification-details {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.verification-details p {
+    margin: 4px 0;
+}

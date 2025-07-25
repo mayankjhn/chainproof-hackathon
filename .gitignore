@@ -1,0 +1,42 @@
+# Ignore all .env files in any folder (root, frontend, backend, etc.)
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
+
+# Ignore all node_modules folders in any folder
+**/node_modules
+
+# Ignore logs and debug files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================================
+# === Project-Specific Ignores ===
+# ================================
+
+# Hardhat specific folders (auto-generated)
+/cache
+/artifacts
+
+# React build output
+/frontend/build
+
+# General build/distribution folders
+/build
+/dist
+
+# ================================
+# === OS & Editor Specific =======
+# ================================
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings (e.g., VS Code)
+.vscode/
